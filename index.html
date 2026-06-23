@@ -10,7 +10,7 @@
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play 小花冥界大冒险.</tw-noscript></noscript></tw-story>
 <tw-storydata name="小花冥界大冒险" startnode="1" creator="Twine" creator-version="2.12.0" format="Harlowe" format-version="3.3.9" ifid="6BA629AA-3118-4C8D-B17D-5B7DF812EDB8" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="冥界大门" tags="" position="650,400" size="100,100">--小花冥界大冒险--
-72等分的好兄弟！灵感来源是玳九老师的72个圣尔图（ 
+
 俄尔普斯花花去冥界找死掉的尔图，冥界主人变出了72个阿尔图，花如果能找到自己的阿尔图就可以带他回去
 
 一个神秘文字小游戏！
@@ -208,18 +208,23 @@
 [花花拄着剑一瘸一拐地走到冥界之主面前，后者面前都摆上了大量的点心零食，简直像是来看什么比赛一样。他饶有兴致地挑了挑眉，示意你做出选择:
  1. 勾八最大的那个
  2. 都不是
-](click:&quot;都不是&quot;)[
+]
+|a&gt;[]
+(click:&quot;都不是&quot;)[(replace:?a)[
 冥界之主问到”你确定吗“
 而你一言不语，只是望着他。
-冥界之主笑着揭开了头纱，你们便一起回去了](click:&quot;勾八最大的那个&quot;)[冥界之主似乎对你的回答有点无语，但出于各种原因没有否认，但阿尔图们似乎对谁的勾八最大有些争议。
-似乎一时半会得不出结论了。
-冥界之主的邀请你暂时先去客房休息，你现在累的站着都勉强于是也没有推辞。
-你跟着侍从在迷宫一般的大殿里七拐八绕，终于到达了所谓的客房。
-但，这个房间怎么好像不太对啊，门框上的雕花是君王的款式，而且怎么好像已经有人在的样子， 一定。。。一定是带错路了吧哈哈哈。。。
+冥界之主笑着揭开了头纱，你们便一起回去了
 
 [[ END---重新开始?-&gt;冥界大门]]
+]]
+(click:&quot;勾八最大的那个&quot;)[(replace:?a)[冥界之主似乎对你的回答有点无语，却出于不知名的原因没有否认，但阿尔图们似乎对谁的勾八最大有些争议。
+这大混战似乎一时半会得不出结论了。
+冥界之主的邀请你暂时先去客房休息，你现在累的站着都勉强于是也没有推辞。
+你跟着侍从在迷宫一般的大殿里七拐八绕，终于到达了所谓的客房。
+但，这个房间怎么好像不太对啊，门框上的雕花是君王的款式，怎么好像已经有人在的样子， 一定。。。一定是带错路了吧哈哈哈。。。
 
-] </tw-passagedata></tw-storydata>
+[[ END---重新开始?-&gt;冥界大门]]
+]] </tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
